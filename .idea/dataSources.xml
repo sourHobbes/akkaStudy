@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3369931595">
+    <data-source source="LOCAL" name="SQL Server - vcloud@10.156.55.176" uuid="1839e3f0-310b-4835-8adf-e1a85aec958e">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://10.156.55.176:1433;databaseName=vcloud</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="PostgreSQL - @192.168.99.100" uuid="353600ec-db43-4153-852a-cde8be3ee920">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://192.168.99.100:5432</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="PostgreSQL - @192.168.99.101" uuid="4da3cb01-4cc2-4244-91c0-b3531b5f232e">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://192.168.99.101:5432</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>

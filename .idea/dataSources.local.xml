@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="SQL Server - vcloud@10.156.55.176" uuid="1839e3f0-310b-4835-8adf-e1a85aec958e">
+      <secret-storage>master_key</secret-storage>
+      <user-name>sa</user-name>
+      <schema-pattern>vcloud.*</schema-pattern>
+      <default-schemas>vcloud.*</default-schemas>
+    </data-source>
+    <data-source name="PostgreSQL - @192.168.99.100" uuid="353600ec-db43-4153-852a-cde8be3ee920">
+      <secret-storage>master_key</secret-storage>
+      <user-name>myuser</user-name>
+      <schema-pattern>*.pg_catalog *.public</schema-pattern>
+      <default-schemas>*.pg_catalog *.public</default-schemas>
+    </data-source>
+    <data-source name="PostgreSQL - @192.168.99.101" uuid="4da3cb01-4cc2-4244-91c0-b3531b5f232e">
+      <secret-storage>master_key</secret-storage>
+      <user-name>myuser</user-name>
+      <schema-pattern>*</schema-pattern>
+      <default-schemas>*.pg_catalog *.public</default-schemas>
+    </data-source>
+  </component>
+</project>
